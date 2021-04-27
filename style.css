@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background: #eee;
+}
+
+.banner-area{
+    background: url(cloud.jfif);
+    background-size: cover; 
+    width: 100%;
+    height: 70vh;
+}
+
+.content-area{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.5em;
+    font-variant: normal;
+}
+
+.content h1{
+    font-size: 80px;
+    color: #fff;
+}
+
+.content p{
+    font-size: 30px;
+    color: #fff;
+}
+
+.content .btn{
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+    background: #fff;
+    text-decoration: none;
+}
+/* nav bar */
+  
+
+.navbar{
+    background: rgb(216, 216, 209);
+    text-align: center;    
+    
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.navbar li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li:hover{
+    background: beige;
+    border-radius: 3px;
+}
+ .subnavbarProjects {
+     display: none;
+ }
+ .navbar ul li:hover .subnavbarProjects{
+     display: block;
+     position: absolute;
+     background: burlywood;
+     margin-top: 15px;
+     margin-left: 15px;
+ }
+ .navbar ul li:hover .subnavbarProjects ul{
+     display: block;
+     margin: 10px;
+
+ }
+ .navbar ul li:hover .subnavbarProjects ul li{
+     width: 150px;
+     padding: 10px;
+     border-bottom: 1px dotted beige;
+ }
+ .navbar ul li:hover .subnavbarProjects ul li:last-child{
+    border-bottom: none;
+ }
+.subnavbarProjects2{
+    display: none;
+}
+.hoverme:hover .subnavbarProjects2{
+ position: absolute;
+ display: block;
+ margin-top: -40px;
+ margin-left: 140px;
+ background: rgb(199, 126, 126);
+}
+}
+/* main area */
+.container{
+    width: 70%;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+.container .box{
+    width: 100%;
+    padding: 50px;
+    background: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px -3px rgba(0, 0, 0, .1);
+}
+
+.Footer {
+    margin-top: 10% ;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.footer_content{
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.footnote{
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}

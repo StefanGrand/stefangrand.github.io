@@ -76,22 +76,22 @@
             </h2>
             <br>
             <p>
-                PROJECT OVERVIEW
-                PacMen Story <br>
-                
+               <h3> PROJECT OVERVIEW</h3>
                 <br>
+                The purpose of these projects are to present my gained skills in JavaScript, HTML and CSS.        
+                <br>
+                Professional Certificate in Coding: Full Stack Development with MERN has the goal to gain hands-on coding skills, for a competitive market edge.
+            
+            A growing number of companies are hiring web developers, software engineers, and other technology workers who use technical skills to streamline their operations and leverage the power of technology within their organizations. My goal is to understand the foundations of web applications, to strengthen my profile and beeing able to create a digital interface with a pleasant user experience.
+
+            <br><br>
+            <li>Build, test, and deploy a web application using the MERN stack</li>
+               <li> Build, test, and deploy APIs</li>
+               <li> Build, test, and deploy a front-end web application using React</li>
+                <li>Setup Continuous Integration (CI) and Continuous Delivery (CD) pipelines to deploy a React application
+            </li>
+            <p>
                
-            <br>
-            <p>
-                MIT & Harvard Bus Station <br>
-                There is a bus operating between the MIT campus and Harvard... live 
-                <br>
-                <br>
-            </p>
-            <br>
-            <p>
-                Eye tracking <br>
-                The eyes are watching you. The ...
                 
             </p>
         </div>
@@ -99,14 +99,18 @@
         <div class="box">
             <h2>
                 PacMen </h2>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-                </p>
+                PacMen was a game in the 90's, where a "PacMan" eats some items on the screen.
+                <br>
+                This first project was intented to try out the power of javascript!!! The PacMan as an item/ image is moving from one side to the other, detecting the innerWidth of the window/screen. 
+                The image is moved by the function #run and #checkPageBounds detects the boundaries of the page. As well PacMan is an array of 4 pictures (Open mouth vs Closed mouth; Right vs Left). The focus changes steadily (open/close mouth) and the face (left or right-oriented) changes depending on the direction of movement.
                 <p>
-                    PacMen Story <br>
-                PacMen was a game in the 90's...
+                   <br>
+
+                A second exercise was a PacMan ("Mario") moving to random directions. Function #setToRandom set the created Marios to a random direction and speed. First you can create as many Mario's as you want with the button "Create X-Mario's" (function #makePac/ #makeOne (initiates via button)). Like for the PacMan there is a #checkCollisions function. The function #update moves the images.   
                 <br>
-                <br>
+                                   
                 Link's: 
+               
                 <li><a href="https://stefangrand.github.io/mariosworld/" target="_blank">Index file: Mario</a> </li>
                 <li><a href="https://github.com/StefanGrand/mariosworld" target="_blank">Code overview: Mario </a></li>
                 <li><a href="https://stefangrand.github.io/RunningPacMan/" target="_blank">Index file: PacMan sheet</a></li>
@@ -118,19 +122,25 @@
         <div class="box">
             <h2>
                 MIT & Harvard Bus Stop </h2>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-                </p>
-                 </p>
+                There is a bus operating between the MIT campus and Harvard. The local bus service provider gives software developers the chance to get real time data about the operating buses.
+            </p>
+                 First you need to establish an API to mapbox (map provider (open source until a specific usage limit)). There are several other providers for these services (e.g. google maps). The functions are established in an asynchronous way to ensure a good user experience. The function #getBusLocation fetches the data, converts it to a json data file. #run initiates all functions with help of a timer (Set to 15sec-> all 15 seconds the bus locations are displayed). Function #addMarkers filters the longitude and latitude of each bus and set a marker on the map (depending on the direction of the bus in blue or red).
+                 <br>
+                 <br>
+                 Link's:
+                 <li><a href="https://stefangrand.github.io/RealTimeBusTracker/" target="_blank">Index file: Bus Tracker</a> </li>
+                 <li><a href="https://github.com/StefanGrand/RealTimeBusTracker" target="_blank">Code overview: Bus Tracker </a></li>
+                
         </div>
 
         <div class="box">
             <h2>
                 Eye exercise </h2>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-                </p>
+                A created object and manipulated with css represents the eyes. Using the DOM and manipulating it with onmousemove eyes are created.
+            </p>
                 <br>
                 <br>
-            
+                
                 Link's:
                 <li><a href="https://stefangrand.github.io/eyes/" target="_blank">Index file: Eyes</a> </li>
                  <li><a href="https://github.com/StefanGrand/eyes">Code overview: Eyes </a></li>
@@ -145,17 +155,17 @@
     <br>
    </p>
     <p class="footer_content">
-        <a href="mailto:­stefan.grandl@web.de">­LINK: STEFAN.GRANDL@WEB.DE</a>
+        <a href="mailto:­stefan.grandl@web.de" style="color: black;">­LINK: STEFAN.GRANDL@WEB.DE</a>
         <br>
         <br>
-        <a href="https://github.com/StefanGrand/stefangrand.github.io">­LINK: GITHUB PROFILE</a>
+        <a href="https://github.com/StefanGrand/stefangrand.github.io" style="color: black;">­LINK: GITHUB PROFILE</a>
         <br>
         <br>
         <a href="https://www.linkedin.com/in/stefan-grandl-898b12129/" target="_blank"><img src="linkedin.png" alt=""></a>
     </p>
    
  
-  <a class="footnote" href="index.html" > BACK TO TOP</a>
+  <a class="footnote" href="index.html" style="color: black;"> BACK TO TOP</a>
     <p></p>
 
     </body>
